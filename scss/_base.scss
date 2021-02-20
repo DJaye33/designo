@@ -1,0 +1,43 @@
+//////////////////////////////////////////////
+// Basic Reset
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary-peach: #e7816b;
+  --color-primary-black: #1d1c1e;
+  --color-primary-white: #ffffff;
+
+  --color-secondary-light-peach: #ffad9b;
+  --color-secondary-dark-grey: #333136;
+  --color-secondary-light-grey: #f1f3f5;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+// End Basic Reset
+//////////////////////////////////////////////
+// Global Mobile FIrst Styles
+h1 {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: var(--color-primary-white);
+}
+// End Global Mobile First Styles
+//////////////////////////////////////////////
