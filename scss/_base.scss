@@ -32,12 +32,51 @@ body {
 // End Basic Reset
 //////////////////////////////////////////////
 // Global Mobile FIrst Styles
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  line-height: 3.6rem;
+}
+
 h1 {
-    font-weight: 500;
-    font-size: 3.2rem;
-    line-height: 3.6rem;
-    text-align: center;
-    color: var(--color-primary-white);
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+  letter-spacing: 0.14rem;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.btn {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: var(--color-secondary-dark-grey);
+  background-color: var(--color-primary-white);
+  border-radius: 0.8rem;
 }
 // End Global Mobile First Styles
 //////////////////////////////////////////////

@@ -19,7 +19,33 @@
     <title>Frontend Mentor | Designo Agency Website Challenge</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <nav class="navbar">
+      <div class="navbar__branding">
+        <img
+          src="assets/shared/desktop/logo-dark.png"
+          alt="designo branding"
+          class="navbar__branding-img"
+        />
+      </div>
+      <div class="navbar__menu">
+        <img
+          src="assets/shared/mobile/icon-hamburger.svg"
+          alt="menu-open"
+          class="navbar__menu-open menu-icon"
+        />
+        <img
+          src="assets/shared/mobile/icon-close.svg"
+          alt="menu-close"
+          class="navbar__menu-close menu-icon"
+          hidden
+        />
+      </div>
+      <div class="navbar__navigation">
+        <a href="#" class="navbar__navigation-link">Our Company</a>
+        <a href="#" class="navbar__navigation-link">Locations</a>
+        <a href="#" class="navbar__navigation-link">Contacts</a>
+      </div>
+    </nav>
 
     <script src="scripts/main.js"></script>
   </body>
